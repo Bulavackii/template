@@ -41,10 +41,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
-          # Загрузка артефактов из папки dist
-          path: './dist'
+          # Загрузка артефактов из папки public (изменить на папку сборки)
+          path: './public'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifact: public  # указать здесь правильный путь к папке сборки

@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "1.0.0",
   "description": "A sample project setup with React, Redux, Redux Toolkit, Redux Saga, Thunk, Pug, SCSS, PHP, Laravel, SQL, TypeScript, Jest, and E2E testing.",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production",

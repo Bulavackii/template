@@ -14,7 +14,7 @@ permissions:
   pages: write
   id-token: write
 
-# Разрешает одно одновременное развертывание.
+# Разрешает одно одновременное развертывание
 concurrency:
   group: 'pages'
   cancel-in-progress: true
@@ -50,4 +50,4 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifact: './public'  # указать здесь правильный путь к папке сборки.
+          artifact: './public'  # указать здесь правильный путь к папке сборки

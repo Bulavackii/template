@@ -1,4 +1,4 @@
-name: lifecycle-http-crud
+name: my-app
 
 on:
   # Запуск при пушах в основную ветку

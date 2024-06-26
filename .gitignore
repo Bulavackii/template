@@ -1,6 +1,11 @@
 # Node.js
 node_modules/
 
+# Build output
+/public/
+/public/bundle.js
+/public/bundle.js.map
+
 # Environment files
 .env
 

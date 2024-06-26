@@ -14,7 +14,7 @@ permissions:
   pages: write
   id-token: write
 
-# Разрешает одно одновременное развертывание
+# Разрешает одно одновременное развертывание.
 concurrency:
   group: 'pages'
   cancel-in-progress: true

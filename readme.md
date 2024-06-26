@@ -14,7 +14,7 @@ A sample project setup with React, Redux, Redux Toolkit, Redux Saga, Thunk, Pug,
     ```bash
     git clone <repository-url>
     cd my-app
-    ```
+    ````
 
 2. Install dependencies with the legacy-peer-deps flag to prevent conflicts:
 

@@ -50,4 +50,4 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifact: public  # указать здесь правильный путь к папке сборки
+          artifact: './public'  # указать здесь правильный путь к папке сборки

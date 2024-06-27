@@ -32,9 +32,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Other generated files
-*.pug
-*.html
-*.css
+
 
 # Ignore all .DS_Store files across the project
 **/.DS_Store
